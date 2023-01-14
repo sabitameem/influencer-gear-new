@@ -1,0 +1,260 @@
+/*--font--*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500;700&family=Signika+Negative&display=swap');
+
+body{
+    font-family: 'Poppins';
+}
+
+/*--header style--*/
+.header{
+    margin-bottom: 200px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+  }
+  nav h4 {
+    margin: 0;
+    font-weight: 700;
+font-size: 24px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav li {
+    margin-left: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    color:#3A3A3A;
+  }
+  .fa-search, .fa-shopping-cart {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+  }
+/*--section style--*/
+.intro{
+    display: flex;
+    
+}   
+
+.text{
+    width: 582px;
+height: 270px;
+   margin-top: 70px;
+   margin-left: 40px;
+}
+.h2{
+    font-weight: 700;
+font-size: 52px;
+  }
+button{
+    background: #E02C6D;
+border-radius: 41px;
+width: 196px;
+height: 44px;
+border: 0;
+color: #FFFFFF;
+padding: 10px 24px;
+gap: 8px;
+
+}
+  
+ /* button: {
+    content: "";
+    display: inline-block;
+    width: 196px;
+height: 44px;
+    
+background: #E02C6D;
+border-radius: 41px;
+  }*/
+  
+.container {
+    position: relative;
+    margin-left:300px;
+    left: -50px;}
+  
+  .first {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .overlap {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  /*--logos--*/
+  .logos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 165px;
+    margin-right: 165px;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin-bottom: 100px;
+
+  }
+
+
+  /*--collection style--*/
+  .collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:10px;
+    margin-bottom: 88px;
+   
+    }
+  
+  .collection-title{
+    font-weight: 600px;
+font-size: 28px;
+color: #3A3A3A;
+justify-content: center;
+text-align: center;
+font-family: 'Poppins';
+margin-bottom: 30px;
+  }
+  .card{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 70px;
+    padding-left: 15px;
+    margin-bottom: 30px
+  }
+.image{
+    width: 300px;
+height: 256px;
+}
+.name{
+    margin-top: 0px;
+font-size: 28px;
+margin-bottom: 7px;
+}
+.price{
+    margin-top: 0px;
+font-size: 24px;
+margin-bottom: 6px;
+color: #000000;
+}
+.star{
+    margin-top: 3px;
+    display: flex;
+}
+.star-one{
+    color:#FB8200;
+}
+.star-p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.para{
+    font-size: 14px;
+    color: #787885;
+    padding-bottom: 0px;
+}
+.see-more{
+    display:flex;
+    color:rgba(224, 44, 109, 0.87);
+
+    background-color: white;
+    font-weight: 700px;
+font-size: 16px;
+width: 75px;
+height: 24px;
+}
+
+
+.right-corner {
+    position: relative;
+    left:1143px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    
+    }
+    .see-more {
+        color:#E02C6D;
+        text-decoration: none;
+        }
+
+  .fa-arrow-right.right  {
+    color:#E02C6D;
+  }    
+
+
+  /*--product--*/
+.product{
+    width: 1110px;
+    height: 270px;
+    margin-left: 135px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-pic{
+    margin-left: 85px;
+}
+.product img{
+    width: 404px;
+    height: 270px;
+}
+.product h2{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+.product p{
+    font-size: 16px;
+   color: #6C6C6C;
+}
+button{
+    background: #E02C6D;
+    width: 155px;
+    height: 44px;
+    border-radius: 0%;
+color: #FFFFFF;
+padding: 10px 24px;
+gap: 8px;
+font-weight: 700px;
+font-size: 16px;
+
+}
+
+
+
+.footer{
+    width: 1440px;
+    height: 239px;
+    background:#0A0826;
+    color: white;
+    
+    justify-content: center;
+    text-align: center;
+}
+.footer h4{
+    padding-top: 40px;
+    font-weight: 700px;
+font-size: 24px;
+
+}
+.footer-icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
